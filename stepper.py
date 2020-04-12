@@ -75,7 +75,7 @@ class Stepper():
 if __name__=="__main__":
     nbStepsPerRev=2048
     stepper = Stepper()
-    stepper.steps(nbStepsPerRev//2)# parcourt un tour dans le sens horaire
+    stepper.steps(nbStepsPerRev)# parcourt un tour dans le sens horaire
     time.sleep(1)
     stepper.steps(-nbStepsPerRev//2)# parcourt un tour dans le sens anti-horaire
     time.sleep(1)
