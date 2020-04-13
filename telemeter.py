@@ -36,4 +36,4 @@ if __name__=="__main__":
         start = time.time()
         distance_in_mm = tel.get_distance()
         print("Distance: {}mm, time: {}".format(distance_in_mm, time.time() - start))
-        time.sleep(2)
+        time.sleep(5)
